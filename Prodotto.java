@@ -19,7 +19,7 @@ public class Prodotto {
     //generare un codice random
     private int generaCodice() {
         Random random= new Random();
-        return random.nextInt(90000) + 10000 //mi genera un codice casuale tra 10000 e 99999
+        return random.nextInt(90000) + 10000; //mi genera un codice casuale tra 10000 e 99999
     }
     //inserisco un metodo GETTER perchè ho usato il private. Il getter mi permette di accedere al valore degli attributi private
     public int getCodice() {
