@@ -43,7 +43,7 @@ public class Prodotto {
         return prezzo;
     }
     //metodo per ottenere il prezzo con iva
-    public getPrezzoConIva() {
+    public double getPrezzoConIva() {
         return prezzo + (prezzo * iva/100);
     }
     //metodo per il nome
